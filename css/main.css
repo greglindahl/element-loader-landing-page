@@ -20,9 +20,6 @@ img {
   max-width: 100%;
 }
 
-h3 {
-  margin: 0 0 1em 0;
-}
 
 
 
@@ -35,12 +32,16 @@ header {
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
   width: 100%;
-  height: 600px;
+  height: 550px;
 }
 
 #logo {
+  display: block;
   text-align: center;
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 h1 {
@@ -50,37 +51,10 @@ h1 {
   line-height: 0.8em;
 }
 
-h2 {
-  font-size: 0.75em;
-  margin: -5px 0 0 ;
-  font-weight: normal;
-}
-
-
-/*********************************
-NAVIGATION
-**********************************/
-
-nav {
+.title {
   text-align: center;
-  padding: 10px 0;
-  margin: 20px 0 0;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0 10px;
-  padding:0;
-}
-
-nav li {
-  display: inline-block;
-}
-
-nav a {
-  font-weight: 800;
-  padding: 15px 10px;
-}
 
 /*********************************
 FOOTER
@@ -90,8 +64,10 @@ footer {
   font-size: 0.75em;
   text-align: center;
   clear: both;
-  padding-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: #ccc;
+  background-color: #252525;
 }
 
 .social-icon {
@@ -103,8 +79,9 @@ footer {
 
 
 /*********************************
-PAGE: PORTFOLIO
+INDEX: BOXES and Buttons;
 **********************************/
+
 
 #gallery {
   margin: 0;
@@ -116,63 +93,76 @@ PAGE: PORTFOLIO
   float: left;
   width: 45%;
   margin: 2.5%;
-  background-color: #f5f5f5;
   color: #bdc3c7;
 }
 
-#gallery li a p {
+#gallery li p {
   margin: 0;
   padding: 5%;
-  font-size: 0.75em;
   color: #bdc3c7;
+  text-align: center;
 }
 
+#gallery li {
+  width: 28.3333%;
+}
 
+.btn-sign-up {
+  background-color:#51bd8b;
+  -moz-border-radius:7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:"Open Sans";
+  font-size:17px;
+  padding:16px 63px;
+  margin: 50px 100px 50px 200px;
+  text-decoration:none;
+  border: none;
+}
+.btn-sign-up:hover {
+  background-color:#3A8B65;
+}
+.btn-sign-up:active {
+  position:relative;
+  top:1px;
+}
 
+.btn-log-in {
+  background-color:#5DBEE6;
+  -moz-border-radius:7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:"Open Sans";
+  font-size:17px;
+  padding:16px 70px;
+  margin-left: 60px;
+  text-decoration:none;
+  border: none;
+}
+.btn-log-in:hover {
+  background-color:#4894B3;
+}
 
-/*********************************
-PAGE: ABOUT
-**********************************/
+.btn-log-in:active {
+  position:relative;
+  top:1px;
+}
 
-.profile-photo {
+section p {
+  text-align: center;
+}
+
+section img {
   display: block;
-  max-width: 150px;
-  margin: 0 auto 30px;
-  border-radius: 100%;
-}
-
-
-
-/*********************************
-PAGE: CONTACT
-**********************************/
-
-.contact-info {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 0.9em;
-}
-
-.contact-info a{
-  display: block;
-  min-height: 20px;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;
-}
-
-.contact-info li.phone a {
-  background-image: url('../img/phone.png')
-}
-
-.contact-info li.mail a {
-  background-image: url('../img/mail.png')
-}
-
-.contact-info li.twitter a {
-  background-image: url('../img/twitter.png')
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 20px;
 }
 
 
@@ -188,7 +178,7 @@ body {
   color: #999;
 }
 
-/* green header */
+/* blue header */
 header {
   background: #5DBEE6;
 }
@@ -199,21 +189,21 @@ nav {
 }
 
 /* logo text */
-h1, h2 {
+h1 {
   color: #fff;
 }
 
 /* links */
 a {
-  color: #6ab47b;
+  color: #5DBEE6;
 }
 
 /* nav link */
 nav a, nav a:visited {
-  color: #fff;
+  color: #3A8B65;
 }
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #4894B3;
 }
