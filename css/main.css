@@ -68,37 +68,12 @@ footer {
   background-color: #252525;
 }
 
-.social-icon {
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;
-}
-
-
 
 /*********************************
 INDEX: BOXES and Buttons;
 **********************************/
 
-#contact-logo {
-  width: 50%;
-  float: left;
-  padding-top: 20px;
-}
-
- #contact-info{
-  width: 50%;
-  float: right;
-  padding-top: 20px;
-  }
-
-#contact-logo li {
-  list-style: none;
-}
-
-#contact-info li {
-  list-style: none;
-}
+/***THREE COLUMN LAYOUT STYLES****/
 
 #gallery {
   margin: 0;
@@ -123,6 +98,30 @@ INDEX: BOXES and Buttons;
 #gallery li {
   width: 28.3333%;
 }
+
+/***TWO COLUMN LAYOUT STYLES****/
+
+#contact-logo {
+  width: 50%;
+  float: left;
+  padding-top: 20px;
+}
+
+ #contact-info{
+  width: 50%;
+  float: right;
+  padding-top: 20px;
+  }
+
+#contact-logo li {
+  list-style: none;
+}
+
+#contact-info li {
+  list-style: none;
+}
+
+/***BUTTON HEADER STYLES****/
 
 .btn-sign-up {
   background-color:#51bd8b;
@@ -177,6 +176,8 @@ INDEX: BOXES and Buttons;
   top:1px;
 }
 
+/***LOG IN BUTTON BODY STYLES****/
+
 .btn-log-in-two {
   background-color:#5DBEE6;
   border-color: #4894B3;
@@ -206,6 +207,8 @@ INDEX: BOXES and Buttons;
   padding: 30px;
 }
 
+/***POWERED BY SECTION STYLES****/
+
 section p {
   text-align: center;
 }
@@ -216,8 +219,6 @@ section img {
   margin-left: auto;
   padding-bottom: 20px;
 }
-
-
 
 
 /*********************************
@@ -233,11 +234,6 @@ body {
 /* blue header */
 header {
   background: #5DBEE6;
-}
-
-/* nav background on mobile */
-nav {
-  background: #599a68;
 }
 
 /* logo text */
